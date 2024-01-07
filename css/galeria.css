@@ -208,8 +208,7 @@ h1 span{
     background: var(--whatsapp);
 }
 
-
-.titutlo {
+.titulo {
     display: flex;
     height: 200px;
     justify-content: center;
@@ -218,8 +217,8 @@ h1 span{
     color: white; /* Agrega este estilo para hacer que el texto sea blanco */
 }
 
-.titutlo::before,
-.titutlo::after {
+.titulo::before,
+.titulo::after {
     content: "";
     display: block;
     height: 5px;
@@ -228,7 +227,7 @@ h1 span{
     margin-right: .5em;
 }
 
-.titutlo::after {
+.titulo::after {
     background: linear-gradient(to right, red, #012);
     margin-right: 0;
     margin-left: .5em;
